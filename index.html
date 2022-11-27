@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Uma Resort</title>
+    <link
+      rel="shortcut icon"
+      href="gambar/logotheuma.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery.js"></script>
+    <script src="sweetalert.all.min.js"></script>
+    <link rel="stylesheet" href="sweetalert.min.css" />
+    <script src="aos.js"></script>
+    <link rel="stylesheet" href="aos.css" />
+    <script src="smoth-scroll.js"></script>
+  </head>
+  <body>
+    <div class="landing-page" id="landing-page">
+      <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">WELCOME TO <br /><span> The Uma Resort</span></h1>
+      <button onclick="enable()">Explore Now</button>
+    </div>
+    <div class="nav">
+      <h1>The Uma</h1>
+      <img src="gambar/menu.png" id="nav-btn" alt="" />
+      <div class="nav-menu">
+        <a data-scroll data-easing="easeInQuint" href="#about">About</a>
+        <a data-scroll data-easing="easeInQuint" href="#room">Room</a>
+        <a data-scroll data-easing="easeInQuint" href="#aktivitas">Activity</a>
+        <a data-scroll data-easing="easeInQuint" href="#kontak">Contact</a>
+        <a data-scroll data-easing="easeInQuint" href="" class="book">Book Now</a>
+      </div>
+    </div>
+    <div class="nav-respon column">
+      <img src="gambar/close.png" alt="" id="nav-close" />
+      <a id="nav-link1" data-scroll data-easing="easeInQuint" href="#about">About</a>
+      <a id="nav-link2" data-scroll data-easing="easeInQuint" href="#room">Room</a>
+      <a id="nav-link3" data-scroll data-easing="easeInQuint" href="#aktivitas">Activity</a>
+      <a id="nav-link4" data-scroll data-easing="easeInQuint" href="#kontak">Contact</a>
+      <a id="nav-link5" data-scroll data-easing="easeInQuint" href="" class="book">Book Now</a>
+    </div>
+    <div class="btn-music">
+      <img class="play" id="play" src="gambar/mute.png" alt="" />
+      <img class="mute none" id="mute" src="gambar/music.png" alt="" />
+    </div>
+    <div class="home container column p-ats" id="about">
+      <h2>Welcome Home! Warmest greetings from</h2>
+      <h1>The Uma Resort</h1>
+      <p>
+        A luxury resort in Ubud where the warmth of nature and hospitality sync
+        into one harmony.
+      </p>
+    </div>
+    <div class="villa column p-ats" id="room">
+      <h1 class="judul" data-aos="zoom-in-up" data-aos-duration="800">
+        Choose Your Room
+      </h1>
+      <div class="area-room">
+        <div
+          class="box-room box-room1"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="100"
+        >
+          <div class="nama-room">
+            <a href="">Valley Pool Villa</a>
+            <a href="" class="plus-btn">+</a>
+          </div>
+        </div>
+        <div
+          class="box-room box-room2"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="200"
+        >
+          <div class="nama-room">
+            <a href="">Luxury Pool Villa</a>
+            <a href="" class="plus-btn">+</a>
+          </div>
+        </div>
+        <div
+          class="box-room box-room3"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="300"
+        >
+          <div class="nama-room">
+            <a href="">Honey Moon Villa</a>
+            <a href="" class="plus-btn">+</a>
+          </div>
+        </div>
+        <div
+          class="box-room box-room4"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="400"
+        >
+          <div class="nama-room">
+            <a href="">Double Decker Villa</a>
+            <a href="" class="plus-btn">+</a>
+          </div>
+        </div>
+        <div
+          class="box-room box-room5"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="500"
+        >
+          <div class="nama-room">
+            <a href="">Calm Villa</a>
+            <a href="" class="plus-btn">+</a>
+          </div>
+        </div>
+        <div
+          class="box-room box-room6"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="600"
+        >
+          <div class="nama-room">
+            <a href="">Sunset Villa</a>
+            <a href="" class="plus-btn">+</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="aktivitas p-ats" id="aktivitas">
+      <h1 class="judul" data-aos="zoom-in-up" data-aos-duration="800">
+        Have a Pleasant Experience
+      </h1>
+      <div class="area-aktivitas">
+        <div class="box-aktivitas wrap">
+          <img src="gambar/bersepeda.jpg" alt="" />
+          <div class="text-akti">
+            <h1 data-aos="fade-up" data-aos-duration="800">Cycling</h1>
+            <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+              Discover Ubud on two wheels and you will experience the best local
+              insight of Ubud’s nature, culture, and history. Along with our
+              bicycle tour guide, you will traverse paddy fields and visit
+              traditional villages spread around Ubud. This activity will give
+              you an educative, refreshing, and unique local experience at Ubud.
+              Expect the full cycling tour to last around three to four hours.
+            </p>
+          </div>
+        </div>
+        <div class="box-aktivitas wrap-reverse">
+          <div class="text-akti">
+            <h1 data-aos="fade-up" data-aos-duration="800">
+              Floating Breakfast
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+              Break away from the reality to enter a fairytale world of romantic
+              Candlelight Dinner or Romantic Breakfast surrounded with Ubud's
+              calming atmosphere, beautiful flowers art, and warm candles.
+              Available everyday in Vyoma Yoga Hut at designated time and is
+              subject to availability.
+            </p>
+          </div>
+          <img src="gambar/makan.jpg" alt="" />
+        </div>
+        <div class="box-aktivitas wrap">
+          <img src="gambar/dinner.jpg" alt="" />
+          <div class="text-akti">
+            <h1 data-aos="fade-up" data-aos-duration="800">
+              Candlelight Dinner and Romantic Breakfast
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+              Discover Ubud on two wheels and you will experience the best local
+              insight of Ubud’s nature, culture, and history. Along with our
+              bicycle tour guide, you will traverse paddy fields and visit
+              traditional villages spread around Ubud. This activity will give
+              you an educative, refreshing, and unique local experience at Ubud.
+              Expect the full cycling tour to last around three to four hours.
+            </p>
+          </div>
+        </div>
+        <div class="box-aktivitas wrap-reverse">
+          <div class="text-akti">
+            <h1 data-aos="fade-up" data-aos-duration="800">Trekking</h1>
+            <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+              For adventurous guests who prefer outdoor activities, trekking is
+              the road for you. Explore the nature of Ubud with our experienced
+              tour guides and select between many available treks that can be
+              adjusted to your needs (weather permitting).
+            </p>
+          </div>
+          <img src="gambar/keliling.jpg" alt="" />
+        </div>
+        <div class="box-aktivitas wrap">
+          <img src="gambar/teh.jpg" alt="" />
+          <div class="text-akti">
+            <h1 data-aos="fade-up" data-aos-duration="800">Tea Service</h1>
+            <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+              When in Bali, even the smallest sip of tea is a celebration of
+              style and serenity. As a calming cup of tea not only soothes the
+              body, but also the mind, an afternoon tea is like a cherry on top
+              of your beautiful day. Unwind and taste the peacefulness in liquid
+              form with a choice of High Tea or Afternoon Tea service available
+              everyday for booking (in selected time).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="terdekat p-ats" id="terdekat">
+      <h1 class="judul" data-aos="fade-up" data-aos-duration="800">
+        Just Nearby
+      </h1>
+      <div class="area-terdekat">
+        <div
+          class="box-terdekat column"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="100"
+        >
+          <img src="gambar/campuhan.png" alt="" />
+          <p>3 Km</p>
+          <h1>Campuhan Ridge Walk</h1>
+          <a href="">READ MORE</a>
+        </div>
+        <div
+          class="box-terdekat column"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="200"
+        >
+          <img src="gambar/ubudartmarket.png" alt="" />
+          <p>2 Km</p>
+          <h1>Ubud Art Market</h1>
+          <a href="">READ MORE</a>
+        </div>
+        <div
+          class="box-terdekat column"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="300"
+        >
+          <img src="gambar/monkey.png" alt="" />
+          <p>4 Km</p>
+          <h1>Sacred Monkey Forest Sanctuary</h1>
+          <a href="">READ MORE</a>
+        </div>
+        <div
+          class="box-terdekat column"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="400"
+        >
+          <img src="gambar/tegallalang.png" alt="" />
+          <p>6 Km</p>
+          <h1>Tegallalang Rice Terrace</h1>
+          <a href="">READ MORE</a>
+        </div>
+        <div
+          class="box-terdekat column"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="500"
+        >
+          <img src="gambar/mas.png" alt="" />
+          <p>7.5 Km</p>
+          <h1>Mas Village</h1>
+          <a href="">READ MORE</a>
+        </div>
+        <div
+          class="box-terdekat column"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="600"
+        >
+          <img src="gambar/coffe.png" alt="" />
+          <p>6 Km</p>
+          <h1>Coffee Plantation</h1>
+          <a href="">READ MORE</a>
+        </div>
+        <div
+          class="box-terdekat column"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="700"
+        >
+          <img src="gambar/tirtaempul.png" alt="" />
+          <p>12.5 Km</p>
+          <h1>Tirta Empul Temple</h1>
+          <a href="">READ MORE</a>
+        </div>
+        <div
+          class="box-terdekat column"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="800"
+        >
+          <img src="gambar/waterfall.png" alt="" />
+          <p>13 Km</p>
+          <h1>Tegenungan Waterfall</h1>
+          <a href="">READ MORE</a>
+        </div>
+      </div>
+    </div>
+    <div class="kontak p-ats" id="kontak">
+      <div class="kontak-kiri column">
+        <div class="bagian-1">
+          <h1>
+            The Uma <br />
+            Resort
+          </h1>
+          <p>
+            Jl. Dangin Uma No. 14 <br />
+            Desa Tegallalang, Ubud <br />
+            Gianyar, Bali
+          </p>
+        </div>
+        <hr />
+        <div class="bagian-2">
+          <div class="isi-email">
+            <p>Reservation</p>
+            <a href="">reservation@theuma.com</a>
+          </div>
+          <div class="isi-email">
+            <p>Public Relations</p>
+            <a href="">public@theuma.com</a>
+          </div>
+          <div class="isi-email">
+            <p>Media & Marketing</p>
+            <a href="">marketing@theuma.com</a>
+          </div>
+        </div>
+        <hr />
+        <div class="bagian-3">
+          <div class="isi-email">
+            <p>Telephone</p>
+            <a href="">+62 999 4843 251</a>
+          </div>
+        </div>
+      </div>
+      <form class="kontak-kanan column">
+        <input type="text" placeholder="YOUR NAME" />
+        <input type="text" placeholder="YOUR EMAIL" />
+        <input type="text" class="pesan" placeholder="MESSAGE" />
+        <input
+          onclick="kirim()"
+          type="reset"
+          class="kirim"
+          value="MAKE RESERVATION"
+        />
+      </form>
+    </div>
+    <div class="footer">
+      <div class="footer-1 column">
+        <h1>The Uma</h1>
+        <hr />
+        <p>Feel Like in Heaven</p>
+        <div class="sosial">
+          <img src="gambar/facebook.png" alt="" />
+          <img src="gambar/instagram.png" alt="" />
+          <img src="gambar/twitter.png" alt="" />
+        </div>
+      </div>
+      <div class="footer-2 column">
+        <h1>Location</h1>
+        <hr />
+        <p>
+          Jl. Dangin Uma No. 14 <br />
+          Desa Tegallalang, Ubud <br />
+          Gianyar, Bali
+        </p>
+      </div>
+      <div class="footer-3 column">
+        <h1>Information</h1>
+        <hr />
+        <a href="">Contact</a>
+        <a href="">FAQ</a>
+        <a href="">Special Offer</a>
+      </div>
+      <div class="footer-3 column">
+        <h1>Support</h1>
+        <hr />
+        <a href="">Term of Service</a>
+        <a href="">Privacy Policy</a>
+      </div>
+    </div>
+    <audio id="musik" controls hidden autoplay loop>
+      <source src="TabuhTelu.mp3" type="audio/mpeg" />
+    </audio>
+    <script>
+      AOS.init();
+      window.onload = disable();
+
+      function disable() {
+        TopScroll = window.pageYOffset || document.documentElement.scrollTop;
+        (LeftScroll =
+          window.pageXOffset || document.documentElement.scrollLeft),
+          (window.onscroll = function () {
+            window.scrollTo(LeftScroll, TopScroll);
+          });
+      }
+
+      function enable() {
+        window.onscroll = function () {};
+        let landingpages = document.getElementById("landing-page");
+        landingpages.classList.add("ke-atas");
+        document.getElementById("musik").play();
+      }
+
+      let musik = document.getElementById("musik");
+      let play = document.getElementById("play");
+      let berhenti = document.getElementById("mute");
+
+      play.onclick = function () {
+        musik.pause();
+        play.classList.add("none");
+        berhenti.classList.remove("none");
+      };
+
+      berhenti.onclick = function () {
+        musik.play();
+        play.classList.remove("none");
+        berhenti.classList.add("none");
+      };
+
+      function kirim() {
+        swal("Succeed", "Message Successfully Sent", "success");
+      }
+
+      $("#nav-btn").click(function () {
+        $(".nav-respon").toggleClass("active");
+      });
+      $("#nav-close").click(function () {
+        $(".nav-respon").removeClass("active");
+      });
+      $("#nav-link1").click(function () {
+        $(".nav-respon").removeClass("active");
+      });
+      $("#nav-link2").click(function () {
+        $(".nav-respon").removeClass("active");
+      });
+      $("#nav-link3").click(function () {
+        $(".nav-respon").removeClass("active");
+      });
+      $("#nav-link4").click(function () {
+        $(".nav-respon").removeClass("active");
+      });
+      $("#nav-link5").click(function () {
+        $(".nav-respon").removeClass("active");
+      });
+
+      var scroll = new SmoothScroll('a[href*="#"]',{
+        speed: 300,
+        speedAsDuration: true
+      });
+      var easeInQuint = new SmoothScroll('[data-easing="easeInQuint"]', {easing: 'easeInQuint'});
+    </script>
+  </body>
+</html>
